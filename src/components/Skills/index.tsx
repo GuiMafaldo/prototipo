@@ -8,52 +8,55 @@ const Habilidades = () => {
                 <ContainerImg>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-html.svg"
+                            src="/img/icons/html.svg"
                             alt="Logo Html" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-css.svg"
+                            src="/img/icons/css.svg"
                             alt="Logo css" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-javascript.svg"
+                            src="/img/icons/js.svg"
                             alt="Logo javascript" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-nativo-de-reagir.svg"
+                            src="/img/icons/react.svg"
                             alt="Logo react.js" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-typescript-48.png"
+                            src="/img/icons/type.svg"
                             alt="Logo typescript" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-vuejs.svg"
+                            src="/img/icons/vue.svg"
                             alt="Logo vue.js" />
                     </div>
+                </ContainerImg>
+                <br />
+                <ContainerImg>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-bootstrap-48.png"
+                            src="/img/icons/boot.svg"
                             alt="Logo bootstrap" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-atrevimento-48.png"
+                            src="/img/icons/sass.svg"
                             alt="Logo sass" />
                     </div>
                     <div>
                         <Imagens
-                            src="/img/icons/icons8-componentes-estilizados-48.png"
+                            src="/img/icons/styled.png"
                             alt="" />
                     </div>
                 </ContainerImg>
+                
             </SectionSkill>
-
         </>
 
     )

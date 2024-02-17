@@ -2,7 +2,7 @@ import { Cards, Description, DivInterna, Geral, Imagem, Title, Text, Botao } fro
 
 const Projects = () => {
     return (
-        <Geral>
+        <Geral id="projects">
             <div>
                 <Title>Projetos</Title>
             </div>
