@@ -3,7 +3,7 @@ import { ContainerImg, Imagens, SectionSkill, TitleSkill } from "./Skills";
 const Habilidades = () => {
     return (
         <>
-            <SectionSkill>
+            <SectionSkill id="skills">
                 <TitleSkill>Conhecimentos & Skills</TitleSkill>
                 <ContainerImg>
                     <div>

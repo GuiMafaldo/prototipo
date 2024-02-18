@@ -8,7 +8,7 @@ const Contact = () =>{
         celular: "(11) 94923-4824"
     }
     return(
-        <Geral>
+        <Geral id="contato">
             <Titulo>Contatos</Titulo>
             <Divsion>
             <Pes>

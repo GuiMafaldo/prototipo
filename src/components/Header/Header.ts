@@ -42,6 +42,11 @@ export const ListItem = styled.li`
     font-family: sans-serif;
     font-size: 20px;
 
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
     @media (max-width: 667px) {
         font-size: 14px;
         margin-left: 1px;

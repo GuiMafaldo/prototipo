@@ -6,7 +6,7 @@ export const SectionSkill = styled.div`
     width: 100%;
     background-color: #0D1B2A;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 `
 export const ContainerImg = styled.div`
     display: flex;

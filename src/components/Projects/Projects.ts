@@ -53,6 +53,7 @@ export const Cards = styled.div`
     display: flex;
     gap: 30px;
     margin: 0 64px ;
+    padding-bottom: 20px;
     
     
     @media(max-width: 667px) {
@@ -85,6 +86,7 @@ export const Description = styled.h4`
 `
 export const DivInterna = styled.div`
     width: 100%;
+    padding-bottom: 20px;
 `
 
 export const Text = styled.p`

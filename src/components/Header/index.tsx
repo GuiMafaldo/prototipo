@@ -9,10 +9,10 @@ const Header = () => {
             </div>
             <Menu>
                 <List>
-                    <ListItem>Home</ListItem>
-                    <ListItem>Projetos</ListItem>
-                    <ListItem>Skills</ListItem>
-                    <ListItem>Contato</ListItem>
+                    <ListItem><a href="#home">Home</a></ListItem>
+                    <ListItem><a href="#projects">Projetos</a></ListItem>
+                    <ListItem><a href="#skills">Skills</a></ListItem>
+                    <ListItem><a href="#contato">Contato</a></ListItem>
                 </List>
             </Menu>
         </Cabecalho>

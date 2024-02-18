@@ -2,7 +2,7 @@ import { AboutMe, Avatar, FirstDiv, Paragraph, Space, Title } from "./About";
 
 const About = () => {
     return (
-        <FirstDiv>
+        <FirstDiv id="home">
             <AboutMe>
                 <Title>Olá, Mundo.</Title>
                 <Paragraph>Aqui você encontrara as informações necessarias <Space><br /></Space>
