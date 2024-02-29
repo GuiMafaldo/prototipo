@@ -10,9 +10,10 @@ export const Cabecalho = styled.header`
     padding: 20px;
 
     @media (max-width: 767px){
-        display: block;
-        width: 100%;
-        text-align: center;
+        display: flex;
+        align-itens: center;
+        justify-content: space-between;
+        
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
