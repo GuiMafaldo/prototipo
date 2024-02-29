@@ -16,7 +16,7 @@ export const FirstDiv = styled.div`
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
-        width: 100%;
+        width: 90%;
         margin-top: -1px;
     }
 `

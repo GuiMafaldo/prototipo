@@ -9,14 +9,14 @@ export const Cabecalho = styled.header`
     width: 100%;
     padding: 20px;
 
-    @media (max-width: 667px){
+    @media (max-width: 767px){
         display: block;
         width: 100%;
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
         max-width: 1024px;
-        width: 100%;
+        width: 90%;
     }
 `
 
@@ -30,7 +30,7 @@ export const List = styled.ul`
     align-items: center;
     justify-content: space-between;
 
-    @media (max-width: 667px) {
+    @media (max-width: 767px) {
         display: flex;
     }
 `
@@ -47,7 +47,7 @@ export const ListItem = styled.li`
         text-decoration: none;
     }
 
-    @media (max-width: 667px) {
+    @media (max-width: 767px) {
         font-size: 14px;
         margin-left: 1px;
     }
@@ -56,9 +56,8 @@ export const ListItem = styled.li`
 export const Imagem = styled.img`
     margin-left: 60px;
 
-    @media (max-width: 667px) {
+    @media (max-width: 767px) {
         width: 100px;
-        margin-left: 120px;
-        margin-bottom: 20px;
+        margin: 0 auto;
     }
 `

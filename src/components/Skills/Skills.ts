@@ -7,6 +7,10 @@ export const SectionSkill = styled.div`
     background-color: #0D1B2A;
     text-align: center;
     padding-bottom: 100px;
+
+    @media (min-width: 768px){
+        width: 90%;
+    }
 `
 export const ContainerImg = styled.div`
     display: flex;
