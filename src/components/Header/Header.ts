@@ -12,7 +12,7 @@ export const Cabecalho = styled.header`
     @media (max-width: 767px){
         display: flex;
         align-itens: center;
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
 
