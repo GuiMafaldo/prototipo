@@ -19,6 +19,7 @@ export const Cabecalho = styled.header`
     @media (min-width: 768px) and (max-width: 1024px) {
         max-width: 1024px;
         width: 90%;
+        margin-left: 0;
     }
 `
 
