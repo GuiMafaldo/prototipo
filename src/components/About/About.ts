@@ -96,6 +96,10 @@ export const Avatar = styled.img`
         display: flex;
         justify-content: center;
         align-items: center;
+
+        img{
+            margin-left: 30px;
+        }
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
