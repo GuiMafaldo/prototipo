@@ -58,6 +58,6 @@ export const Imagem = styled.img`
 
     @media (max-width: 767px) {
         width: 100px;
-        margin: 0 auto;
+        margin-left: 123px;
     }
 `

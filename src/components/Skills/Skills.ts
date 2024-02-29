@@ -17,6 +17,14 @@ export const ContainerImg = styled.div`
     align-items: center;
     justify-content: center;
     gap: 30px;
+
+    @media (max-width: 767px){
+        width: 70%;
+        margin: 0 auto;
+        img{
+            width: 35px;
+        }
+    }
 `
 
 export const TitleSkill = styled.h2`
