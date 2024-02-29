@@ -13,12 +13,13 @@ export const Cabecalho = styled.header`
         display: flex;
         align-itens: center;
         justify-content: space-around;
+        width: 100%;
         
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
         max-width: 1024px;
-        width: 90%;
+        width: 70%;
     }
 `
 
@@ -26,6 +27,12 @@ export const Menu = styled.menu`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+
+    
 `
 export const List = styled.ul`
     display: flex;
@@ -51,7 +58,7 @@ export const ListItem = styled.li`
 
     @media (max-width: 767px) {
         font-size: 14px;
-        margin-left: 1px;
+        margin: 14px;
     }
 `
 
@@ -60,6 +67,7 @@ export const Imagem = styled.img`
 
     @media (max-width: 767px) {
         width: 100px;
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-rigth: 20px;
     }
 `
