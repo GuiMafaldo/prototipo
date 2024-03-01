@@ -1,4 +1,4 @@
-import { AboutMe, Avatar, FirstDiv, Paragraph, Space, Title } from "./About";
+import { AboutMe, Avatar, FirstDiv, Icons, ListIcons, Paragraph, Space, Title } from "./About";
 
 const About = () => {
     return (
@@ -13,6 +13,12 @@ const About = () => {
                     para mais informações.</Paragraph>
             </AboutMe>
             <Avatar src="/img/avatar.png" alt="avatar" />
+            <ListIcons>
+                <Icons src="/img/icons/github.svg" alt="logo github" />
+                <Icons src="/img/icons/linkedin.png" alt="logo linkedin" />
+                <Icons src="/img/icons/gmail.png" alt="logo gmail" />
+                <Icons src="/img/icons/zap.png" alt="logo zap" />
+            </ListIcons>
         </FirstDiv>
     )
 }

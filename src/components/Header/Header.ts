@@ -19,7 +19,7 @@ export const Cabecalho = styled.header`
 
     @media (min-width: 768px) and (max-width: 1024px) {
         max-width: 1024px;
-        width: 70%;
+        width: 100%;
     }
 `
 
@@ -30,6 +30,8 @@ export const Menu = styled.menu`
 
     @media (max-width: 767px) {
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
 
     

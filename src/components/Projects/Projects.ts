@@ -8,9 +8,10 @@ export const Geral = styled.div`
     background-color: #e3e3e3;
     padding-bottom: 40px;
 
-    @media(max-width: 667px) {
+    @media (max-width: 767px) {
         display: block;
         width: 100%;
+        margin: 0 auto;
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -23,9 +24,10 @@ export const Imagem = styled.img`
     width: 264px;
     height: 190px;
 
-    @media(max-width: 667px) {
-        width: 100%;
+    @media(max-width: 767px) {
+        width: 80%;
         margin-top: 80px;
+        border-radius: 4px;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
         width: 60%;
@@ -43,21 +45,23 @@ export const Title = styled.h2`
     color: #0D1B2A;
 
 
-    @media(max-width: 667px) {]
-        width: 50%;
+    @media(max-width: 767px) {
+        width: 100%;
         margin-bottom: 80px;
+        
     }
 `
 
 export const Cards = styled.div`
     display: flex;
     gap: 30px;
-    margin: 0 64px ;
+    margin: 0 64px;
     padding-bottom: 20px;
     
     
-    @media(max-width: 667px) {
-        display: block;
+    @media (max-width: 767px) {
+        display: grid;
+        grid-template-columns: 1fr;
         width: 85%;
         text-align: center;
         margin: 0 auto;
@@ -78,6 +82,13 @@ export const Description = styled.h4`
     padding: 20px;
     margin-top: -3px;
 
+    @media (max-width: 767px) {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -3px;
+        border-radius: 2px;
+    }
+
     @media (min-width: 768px) and (max-width: 1024px) {
         width: 60%;
         display: block;
@@ -85,8 +96,12 @@ export const Description = styled.h4`
     }
 `
 export const DivInterna = styled.div`
-    width: 100%;
+    width: 90%;
     padding-bottom: 20px;
+
+    @media (max-width: 767px){
+        margin: 0 auto;
+    }
 `
 
 export const Text = styled.p`
@@ -100,9 +115,10 @@ export const Text = styled.p`
     background-color: #fff;
     padding: 8px;
 
-    @media(max-width: 676px) {
-        display: flex;
-        flex-direction: column;
+    @media(max-width: 767px) {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
         width: 60%;

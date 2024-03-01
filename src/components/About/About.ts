@@ -5,8 +5,9 @@ export const FirstDiv = styled.div`
     background-color: #0D1B2A;
     max-width: 1280px;
     width: 100%;
-    display: flex;
-    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10px;
     padding-top: 40px;
 
     @media(max-width: 767px){
@@ -36,6 +37,20 @@ export const AboutMe = styled.div`
     @media (min-width: 768px) and (max-width: 1024px) {
         width: 100%;
         margin-left: 140px;
+    }
+`
+export const ListIcons = styled.div`
+    display: flex;
+    margin: 0 auto;
+    align-itens: center;
+    
+
+
+    @media(max-width: 767px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-100px;
     }
 `
 
@@ -84,10 +99,9 @@ export const Space = styled.span`
 `
 
 export const Avatar = styled.img`
-    width: 424px;
+    width: 300px;
     heigth: 424px;
-    margin-top: -45px;
-    margin-right: 105px;
+    margin-rigth: 150px;
     padding-bottom: 108px;
 
     @media(max-width: 767px) {
@@ -96,13 +110,19 @@ export const Avatar = styled.img`
         display: flex;
         justify-content: center;
         align-items: center;
-
-        img{
-            margin-left: 30px;
-        }
+        margin: 0 auto;
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
         width: 250px;
+    }
+`
+
+export const Icons = styled.img`
+    width: 40px;
+    display: flex;
+    @media (max-width: 767px){
+        width: 36px;
+        margin: -80px 12px 0;
     }
 `
