@@ -5,7 +5,7 @@ export const Cabecalho = styled.header`
     align-items: center;
     justify-content: space-between;
     background-color: #0D1B2A;
-    max-width: 1280px;
+    max-width: 1440px;
     width: 100%;
     padding: 20px;
 

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Geral = styled.div`
     padding-top: 80px;
-    max-width: 1280px;
+    max-width: 1440px;
     width: 100%;
     text-align: center;
     background-color: #e3e3e3;
@@ -15,8 +15,7 @@ export const Geral = styled.div`
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
-        width: 90%;
-        display: block;
+        width: 100%;
     }
 `
 
@@ -54,23 +53,29 @@ export const Title = styled.h2`
 
 export const Cards = styled.div`
     display: flex;
+    width: 90%;
     gap: 30px;
     margin: 0 64px;
     padding-bottom: 20px;
     
     
     @media (max-width: 767px) {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 85%;
+        display: block;
+        width: 80%;
         text-align: center;
         margin: 0 auto;
     }
 
-    @media (min-width: 768px) and (max-width: 1024px) {
+    @media(min-width: 768px) and (max-width: 1024px) {
         width: 100%;
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin: 0 auto;
+    }
+
+    @media(min-width: 1025px){
+        width: 100%;
+        margin: 0;
     }
 `
 
@@ -96,7 +101,7 @@ export const Description = styled.h4`
     }
 `
 export const DivInterna = styled.div`
-    width: 90%;
+    width: 100%;
     padding-bottom: 20px;
 
     @media (max-width: 767px){
