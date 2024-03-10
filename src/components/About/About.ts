@@ -22,11 +22,16 @@ export const FirstDiv = styled.div`
         display: block;
         width: 100%;
         margin-top: -1px;
+
+        h1{
+            font-size: 22px;
+        }
     }
 
     @media (min-width: 768px) {
         width: 100%;
         margin-top: -1px;
+        padding-bottom: 30px;
     }
 `
 export const AboutMe = styled.div`
@@ -35,14 +40,15 @@ export const AboutMe = styled.div`
     padding-bottom: 60px;
 
     @media(max-width: 767px){
-        width: 100%;
-        margin-left: 60px;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
     }
 
     @media (min-width: 768px) {
-        width: 100%;
+        width: 70%;
         height: 60vh;
-        margin-left: 40px;
+        margin: 0 auto;
     }
 `
 export const ListIcons = styled.div`
@@ -51,17 +57,16 @@ export const ListIcons = styled.div`
     margin-right: 280px;
     margin-top: -190px;
     
-    
-
-
     @media(max-width: 767px){
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top:-100px;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 30%;
+    }
+    @media(min-width: 767px) and (max-width: 1024px ){
+        display: none;
     }
 `
-
 export const TextSobre = styled.p`
     width: 100%;
     margin: 0 auto;
@@ -70,12 +75,12 @@ export const TextSobre = styled.p`
     font-weight: normal;
 
     @media(max-width: 767px) {
-        width: 100%;
-        margin-left: -30px;
+        width: 90%;
+        margin: 0 auto;
     }
-    @media(min-width: 768px) {
+    @media(min-width: 768px) and (max-width: 1024px) {
         width: 100%;
-
+        font-size: 14px;
     }
 `
 export const Avatar = styled.img`
@@ -83,12 +88,16 @@ export const Avatar = styled.img`
     border-radius: 20px;
 
     @media(max-width: 767px) {
-        margin: 0 10px 0 0;
-    
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        margin-left: 20%;
+        margin-top: 30px;
     }
 
-    @media (min-width: 768px){
-        width: 200px;
+    @media (min-width: 768px) and (max-width: 1024px) {
+        width: 160px;
+        height: 200px;
         margin: 0 auto;
     }
 `
@@ -98,7 +107,18 @@ export const Icons = styled.img`
     display: flex;
     margin-top: -50px;
     margin-right: 18px;
+    cursor: pointer;
+
     @media (max-width: 767px){
+        display: flex;
         width: 26x;
+        height: 24px;
+        
+    }
+    @media (min-width: 767px) and (max-width: 1024px){
+        display: flex;
+        width: 26x;
+        height: 24px;
+        
     }
 `

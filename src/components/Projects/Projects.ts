@@ -20,7 +20,7 @@ export const Geral = styled.div`
 `
 
 export const Imagem = styled.img`
-    width: 264px;
+    width: 100%;
     height: 190px;
 
     @media(max-width: 767px) {
@@ -29,7 +29,7 @@ export const Imagem = styled.img`
         border-radius: 4px;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 120px;
         margin-bottom: -3px;
@@ -49,11 +49,15 @@ export const Title = styled.h2`
         margin-bottom: 80px;
         
     }
+    @media(min-width: 767px) and (max-width: 1024px){
+        width: 100%;
+        margin-bottom: 80px;
+    }
 `
 
 export const Cards = styled.div`
     display: flex;
-    width: 90%;
+    width: 100%;
     gap: 30px;
     margin: 0 64px;
     padding-bottom: 20px;
@@ -74,8 +78,8 @@ export const Cards = styled.div`
     }
 
     @media(min-width: 1025px){
-        width: 100%;
-        margin: 0;
+        width: 90%;
+        margin: 0 auto;
     }
 `
 
@@ -95,13 +99,13 @@ export const Description = styled.h4`
     }
 
     @media (min-width: 768px) and (max-width: 1024px) {
-        width: 60%;
+        width: 80%;
         display: block;
         margin: 0 auto;
     }
 `
 export const DivInterna = styled.div`
-    width: 100%;
+    width: 90%;
     padding-bottom: 20px;
 
     @media (max-width: 767px){
@@ -126,7 +130,7 @@ export const Text = styled.p`
         padding-bottom: 30px;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
