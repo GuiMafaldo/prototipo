@@ -36,6 +36,7 @@ export const MenuMobile = styled.div`
 
     @media(max-width: 767px){
         display: flex;
+        flex-direction: row-reverse;
         width: 100%;
         margin: 0;
         margin-left: 20px;
@@ -51,6 +52,7 @@ export const Menu = styled.menu<MenuHamb>`
     @media (max-width: 767px) {
         width: 100%;
         display: ${(props) => props.isOpen ? 'flex' : 'none'};
+        
     }
     @media (min-width: 767px) and (max-width: 1024px) {
         display: flex;
