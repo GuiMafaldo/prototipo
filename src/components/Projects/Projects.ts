@@ -134,7 +134,7 @@ export const Text = styled.p`
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 `
 

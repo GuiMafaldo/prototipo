@@ -31,7 +31,7 @@ export const FirstDiv = styled.div`
     @media (min-width: 768px) {
         width: 100%;
         margin-top: -1px;
-        padding-bottom: 30px;
+        padding-bottom: 180px;
     }
 `
 export const AboutMe = styled.div`
@@ -52,13 +52,14 @@ export const AboutMe = styled.div`
     }
 `
 export const ListIcons = styled.div`
-    display: flex;
+    display: none;
     justify-content: end;
-    margin-right: 280px;
-    margin-top: -190px;
+    margin-right: 430px;
+    margin-top: -170px;
+    position: absolute;
     
     @media(max-width: 767px){
-        display: flex;
+        display: none;
         justify-content: space-around;
         margin: 0 auto;
         width: 30%;
@@ -70,6 +71,7 @@ export const ListIcons = styled.div`
 export const TextSobre = styled.p`
     width: 100%;
     margin: 0 auto;
+    margin-top: 20px;
     color: #fff;
     font-family: sans-serif;
     font-weight: normal;
@@ -86,6 +88,8 @@ export const TextSobre = styled.p`
 export const Avatar = styled.img`
     height: 300px;
     border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
 
     @media(max-width: 767px) {
         margin: 0 auto;
@@ -99,6 +103,7 @@ export const Avatar = styled.img`
         width: 160px;
         height: 200px;
         margin: 0 auto;
+        margin-top: 22px;
     }
 `
 export const Icons = styled.img`
@@ -108,6 +113,7 @@ export const Icons = styled.img`
     margin-top: -50px;
     margin-right: 18px;
     cursor: pointer;
+    position: relative;
 
     @media (max-width: 767px){
         display: flex;
