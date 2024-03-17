@@ -93,9 +93,9 @@ export const Avatar = styled.img`
 
     @media(max-width: 767px) {
         margin: 0 auto;
-        width: 200px;
+        width: 160px;
         height: 200px;
-        margin-left: 20%;
+        margin-left: 25%;
         margin-top: 30px;
     }
 
