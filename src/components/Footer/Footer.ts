@@ -19,16 +19,21 @@ export const FirstDiv = styled.div`
     p{
         margin-bottom: 20px;
     }
+
+    @media(max-width: 767px){
+        display: block;
+    }
 `
 
 export const FirstDireitos = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
     p{
         font-family: helvetica;
-        margin-right: 20px;
+        margin-top: 40px;
+        
     }
 
     img{
@@ -52,8 +57,39 @@ export const FirstDireitos = styled.div`
                 font-weight: bold;
                 font-family: helvetica;
         }
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    @media(max-width: 767px){
+        display: block;
+        flex-direction: row;
+        align-items: left;
+        width: 100%;
+
+        p{
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        a{
+            display: flex;
+            margin-top: 10px;
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         span{
-            margin-left: 6px;
+            margin: 0 auto;
+            margin-bottom: -8px;
+            margin-left: 10px;
             padding: 8px;
             background-color: #0D1B2A;
             color: #fff;

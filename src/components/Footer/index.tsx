@@ -10,24 +10,27 @@ const FooterPage = () => {
                     <p>Cel: (11)9 4923-4824</p>
                 </FirstDiv>
                 <FirstDireitos>
+                    <div>
+                        <a href="https://github.com/GuiMafaldo">
+                        <img 
+                        src="/img/icons/github.svg" 
+                        alt="Logo Github"
+                        />
+                        </a>
+                        <a href="https://www.linkedin.com/in/guimafaldo/">
+                        <img 
+                        src="/img/icons/linkedin.png" 
+                        alt="Logo linkdin" 
+                        />
+                        </a>
+                        <a href="https://www.instagram.com/mafaldo.gui/">
+                        <img 
+                        src="/img/icons/instagram.png " 
+                        alt="Logo instagram" />
+                        </a>
+                        <span>Siga minhas redes</span>
+                    </div>
                     <p>&copy; Todos os direitos reservados,  março-2024</p>
-                    <a href="https://github.com/GuiMafaldo">
-                    <img 
-                    src="/img/icons/github.svg" 
-                    alt="Logo Github"
-                    />
-                    </a>
-                    <a href="https://www.linkedin.com/in/guimafaldo/">
-                    <img 
-                    src="/img/icons/linkedin.png" 
-                    alt="Logo linkdin" 
-                    />
-                    </a>
-                    <a href="https://www.instagram.com/mafaldo.gui/">
-                    <img 
-                    src="/img/icons/instagram.png " 
-                    alt="Logo instagram" />
-                    <span>Siga minhas redes</span></a>
                 </FirstDireitos>
             </FooterSpace>
         </>
