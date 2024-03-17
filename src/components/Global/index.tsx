@@ -1,4 +1,5 @@
 import About from "../About";
+import FooterPage from "../Footer";
 import Header from "../Header";
 import Projects from "../Projects";
 import Habilidades from "../Skills";
@@ -12,6 +13,7 @@ const Global = () => {
             <About />
             <Projects />
             <Habilidades />
+            <FooterPage />
         </Setting>
     )
 }

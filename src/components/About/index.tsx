@@ -6,19 +6,19 @@ const About = () => {
             <h1>DESENVOLVEDOR FRONT-END</h1>
             <AboutMe>
             <TextSobre>
-                Olá a todos,
+                Olá a todos. <br /> <br />
 
                 Meu nome é Guilherme, tenho 29 anos e sou um entusiasta do desenvolvimento front-end.
                 Meu percurso nesse campo tem sido uma jornada repleta de aprendizado e dedicação <br /> <br />
-                Cada projeto que embarquei representou não apenas um desafio técnico, mas também uma oportunidade de crescimento pessoal e profissional.
-                Através deles, pude aprimorar minhas habilidades, expandir meu conhecimento e explorar novas tecnologias e tendências. <br /> <br />
-                Neste portfólio, compartilho com vocês uma seleção dos meus projetos mais recentes e significativos.
-                Desde websites responsivos e intuitivos até aplicações web dinâmicas e inovadoras,
-                cada projeto aqui apresentado foi desenvolvido com cuidado, atenção aos detalhes e um compromisso inabalável com a qualidade. <br /> <br />
-                Espero que desfrutem desta jornada através do meu portfólio e que, ao explorarem cada projeto, possam vislumbrar não apenas o que fiz,
-                mas também o que sou capaz de realizar no mundo do desenvolvimento front-end. <br /> <br />
-                Obrigado por dedicarem um tempo para conhecer meu trabalho. 
-                Estou ansioso para compartilhar mais detalhes e insights sobre cada projeto durante nossa entrevista.
+                Cada projeto que assumi foi uma oportunidade para aplicar minhas habilidades técnicas e liderança, enquanto explorava novas tecnologias e tendências. Por exemplo,
+                liderar equipes em projetos complexos me permitiu não apenas alcançar metas, mas também inspirar meus colegas a darem o melhor de si. <br /> <br />
+                <p>Minha capacidade de aprendizado rápido e de ensinar outros é um dos meus maiores trunfos. Isso se reflete no meu compromisso em permanecer proativo na busca por desenvolvimento contínuo,
+                tanto para mim quanto para aqueles ao meu redor.</p>
+                Estou ansioso para compartilhar mais detalhes e insights sobre cada projeto durante nossa entrevista. <br /> <br />
+                <p>Estou ansioso para compartilhar mais detalhes e insights sobre cada projeto durante nossa entrevista e, principalmente, para colaborar em projetos futuros que desafiem e inspirem meu crescimento
+                profissional. </p> <br/>
+
+                <p>Obrigado por dedicarem um tempo para conhecer meu trabalho.</p>
             </TextSobre>
             <Avatar src="/img/foto.jpg" alt="avatar" />
             </AboutMe>

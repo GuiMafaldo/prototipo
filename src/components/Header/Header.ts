@@ -65,11 +65,22 @@ export const List = styled.ul`
     align-items: center;
     justify-content: space-between;
     margin-left: 300px;
+    transition: all ease 0.5s;
+
+    :hover{
+        background-color: #fff;
+        color: #0D1B2A;
+        transition: all ease 0.6s;
+        padding: 6px;
+        font-weight: bold;
+        border-radius: 4px;
+    }
 
     @media (max-width: 767px) {
         display: flex;
         margin: 0;
         width: 100%;
+
 
         a{
             font-size: 16px;

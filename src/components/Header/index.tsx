@@ -19,7 +19,7 @@ const Header = () => {
                     <ListItem><a href="#home">Home</a></ListItem>
                     <ListItem><a href="#projects">Projetos</a></ListItem>
                     <ListItem><a href="#skills">Skills</a></ListItem>
-                    <ListItem><a href="#contato">Contato</a></ListItem>
+                    <ListItem><a href="#footer">Contato</a></ListItem>
                 </List>
             </Menu>
             <MenuMobile onClick={toggleMenu}>
