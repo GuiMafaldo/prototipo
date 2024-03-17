@@ -48,17 +48,17 @@ export const FirstDireitos = styled.div`
         align-items: center;
         margin-left: 6px;
         cursor-pointer;
-        
-        :hover{
-                margin-left: 6px;
-                transition:  ease 0.3s;
-                background-color:#d9d9d9;
-                color: #0D1B2A;
-                font-weight: bold;
-                font-family: helvetica;
-        }
     }
-
+    span{
+        margin-left: 6px;
+        transition:  ease 0.3s;
+        background-color:#0D1B2A;
+        color: #fff;
+        padding: 8px;
+        font-weight: bold;
+        font-family: helvetica;
+        cursor: pointer;
+}
     div{
         display: flex;
         align-items: center;
